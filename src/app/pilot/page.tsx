@@ -2,15 +2,15 @@ import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
 import { Menu } from "../components/Menu";
 import { WatchCard } from "../components/WatchCard";
-import watch18 from "/Users/noelcampbell-hunter/projects/noel-website/assets/watch18.png";
-import watch19 from "/Users/noelcampbell-hunter/projects/noel-website/assets/watch19.png";
-import watch20 from "/Users/noelcampbell-hunter/projects/noel-website/assets/watch20.png";
-import watch21 from "/Users/noelcampbell-hunter/projects/noel-website/assets/watch21.png";
-import watch22 from "/Users/noelcampbell-hunter/projects/noel-website/assets/watch22.png";
-import watch23 from "/Users/noelcampbell-hunter/projects/noel-website/assets/watch23.png";
-import watch24 from "/Users/noelcampbell-hunter/projects/noel-website/assets/watch24.png";
-import watch25 from "/Users/noelcampbell-hunter/projects/noel-website/assets/watch25.png";
-import watch26 from "/Users/noelcampbell-hunter/projects/noel-website/assets/watch26.png";
+import watch18 from "../../../assets/watch18.png";
+import watch19 from "../../../assets/watch19.png";
+import watch20 from "../../../assets/watch20.png";
+import watch21 from "../../../assets/watch21.png";
+import watch22 from "../../../assets/watch22.png";
+import watch23 from "../../../assets/watch23.png";
+import watch24 from "../../../assets/watch24.png";
+import watch25 from "../../../assets/watch25.png";
+import watch26 from "../../../assets/watch26.png";
 
 export const WatchContainer = (): JSX.Element => {
   return (
