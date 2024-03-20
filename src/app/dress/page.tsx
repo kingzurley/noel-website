@@ -1,5 +1,4 @@
 import { Footer } from "../components/Footer";
-import { Header } from "../components/Header";
 import { Menu } from "../components/Menu";
 import { WatchCard } from "../components/WatchCard";
 import watch27 from "../../../assets/watch27.png";
@@ -36,11 +35,7 @@ export const WatchContainer = (): JSX.Element => {
         price={29100}
       />
       <WatchCard image={watch32} title="Tissot PRX" price={640} />
-      <WatchCard
-        image={watch33}
-        title="Blancpain Villeret"
-        price={10800}
-      />
+      <WatchCard image={watch33} title="Blancpain Villeret" price={10800} />
       <WatchCard image={watch34} title="Longines Elegant" price={1700} />
       <WatchCard
         image={watch35}
@@ -105,7 +100,6 @@ export const WatchContainer = (): JSX.Element => {
 export default function Dress() {
   return (
     <div className="flex flex-col h-screen">
-      <Header />
       <div className="flex flex-row">
         <Menu />
         <WatchContainer />
