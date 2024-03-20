@@ -1,5 +1,4 @@
 import { Footer } from "../components/Footer";
-import { Header } from "../components/Header";
 import { Menu } from "../components/Menu";
 import { WatchCard } from "../components/WatchCard";
 import watch10 from "../../../assets/watch10.png";
@@ -11,10 +10,25 @@ import watch15 from "../../../assets/watch15.png";
 import watch16 from "../../../assets/watch16.png";
 import watch9 from "../../../assets/watch9.png";
 
+import React from "react";
+import Link from "next/link";
+
+interface LinkProps {
+  link: string;
+  onClick: (event: React.MouseEvent<HTMLLinkElement>) => void;
+}
+
 export const WatchContainer = (): JSX.Element => {
   return (
     <div className="min-w-64 flex flex-row font-mono gap-4 flex-wrap p-2.5 text-base shadow-md bg-gradient-to-t from-slate-50 to-slate-200">
-      <WatchCard image={watch9} title="Omega Seamaster 300m" price={5300} />
+      <Link href="/diveomega">
+        <WatchCard
+          // onClick={(event: any) => undefined}
+          image={watch9}
+          title="Omega Seamaster 300m"
+          price={5300}
+        />
+      </Link>
       <WatchCard
         image={watch10}
         title="DOXA Carbon Whitepearl 300m"
@@ -49,7 +63,6 @@ export const WatchContainer = (): JSX.Element => {
 export default function Dive() {
   return (
     <div className="flex flex-col h-screen">
-      <Header />
       <div className="flex flex-row">
         <Menu />
         <WatchContainer />
