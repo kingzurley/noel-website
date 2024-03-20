@@ -10,7 +10,7 @@ import watch8 from "../../../assets/watch8.png";
 
 export const WatchContainer = (): JSX.Element => {
   return (
-    <div className=" flex flex-row font-mono gap-4 flex-wrap p-2.5 text-lg bg-gradient-to-br from-cyan-200 to-purple-500">
+    <div className=" flex flex-row font-mono gap-4 flex-wrap p-2.5 text-base shadow-md bg-gradient-to-t from-slate-50 to-slate-200 hover:bg-red-700">
       <WatchCard image={watch1} title="Tissot PRX Powermatic" price={640} />
       <WatchCard image={watch2} title="Tudor Black Bay" price={3360} />
       <WatchCard image={watch3} title="Tudor Royal Day/Date" price={2210} />

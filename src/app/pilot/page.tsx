@@ -14,7 +14,7 @@ import watch26 from "../../../assets/watch26.png";
 
 export const WatchContainer = (): JSX.Element => {
   return (
-    <div className=" flex flex-row font-mono gap-4 flex-wrap p-2.5 text-lg bg-gradient-to-br from-cyan-200 to-purple-500">
+    <div className="flex flex-row font-mono gap-4 flex-wrap p-2.5 text-base shadow-md bg-gradient-to-t from-slate-50 to-slate-200">
       <WatchCard image={watch18} title="Zenith Big Date" price={10100} />
       <WatchCard image={watch19} title="Hamilton Pioneer" price={780} />
       <WatchCard image={watch20} title="IWC Top Gun" price={5900} />

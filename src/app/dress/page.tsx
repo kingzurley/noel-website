@@ -25,7 +25,7 @@ import watch48 from "../../../assets/watch48.png";
 
 export const WatchContainer = (): JSX.Element => {
   return (
-    <div className=" flex flex-row font-mono gap-4 flex-wrap p-2.5 text-lg bg-gradient-to-br from-cyan-200 to-purple-500">
+    <div className="flex flex-row font-mono gap-4 flex-wrap p-2.5 text-base shadow-md bg-gradient-to-t from-slate-50 to-slate-200">
       <WatchCard image={watch27} title="Cartier Santos" price={7400} />
       <WatchCard image={watch28} title="Cartier Santos Dumont" price={4000} />
       <WatchCard image={watch29} title="Raymond Weil Maestro" price={995} />
@@ -38,7 +38,7 @@ export const WatchContainer = (): JSX.Element => {
       <WatchCard image={watch32} title="Tissot PRX" price={640} />
       <WatchCard
         image={watch33}
-        title="Blancpain Villeret Grande Date"
+        title="Blancpain Villeret"
         price={10800}
       />
       <WatchCard image={watch34} title="Longines Elegant" price={1700} />
@@ -60,7 +60,7 @@ export const WatchContainer = (): JSX.Element => {
       />
       <WatchCard
         image={watch39}
-        title="Patek Philippe Annual Calendar"
+        title="Patek Philippe Calendar"
         price={49350}
       />
       <WatchCard
@@ -90,12 +90,12 @@ export const WatchContainer = (): JSX.Element => {
       />
       <WatchCard
         image={watch46}
-        title="Vacheron Constantin Traditionnelle"
+        title="Vacheron Constantin Trad"
         price={43600}
       />
       <WatchCard
         image={watch48}
-        title="Patek Philippe Annual Caldendar"
+        title="Patek Philippe Caldendar"
         price={49350}
       />
     </div>

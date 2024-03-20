@@ -13,7 +13,7 @@ import watch9 from "../../../assets/watch9.png";
 
 export const WatchContainer = (): JSX.Element => {
   return (
-    <div className=" flex flex-row font-mono gap-4 flex-wrap p-2.5 text-lg bg-gradient-to-br from-cyan-200 to-purple-500">
+    <div className="min-w-64 flex flex-row font-mono gap-4 flex-wrap p-2.5 text-base shadow-md bg-gradient-to-t from-slate-50 to-slate-200">
       <WatchCard image={watch9} title="Omega Seamaster 300m" price={5300} />
       <WatchCard
         image={watch10}

@@ -9,8 +9,8 @@ interface IWatchCardProps {
 
 export const WatchCard = (props: IWatchCardProps): JSX.Element => {
   return (
-    <div className="flex flex-col items-center gap-4 w-80 shadow-md font-bold">
-      <Image src={props.image} height={120} width={360} alt={props.title}/>
+    <div className="flex flex-col items-center gap-3 bg-white shadow-md font-bold h-96 w-72 hover:scale-110">
+      <Image src={props.image} height={200} width={270} alt={props.title}/>
       <h1 className="">{props.title}</h1>
       <h2 className="">{props.price}</h2>
     </div>
