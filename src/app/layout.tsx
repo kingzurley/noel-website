@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { Footer } from "./components/Footer";
+import { Menu } from "./components/Menu";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +18,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {/* Stretch the container across 5 columns */}
+        <div className="grid grid-cols-5">
+          {/* Occupy the menu with 1 column */}
+          <div className="col-span-1">
+            <Menu />
+          </div>
+          {/* Occupy the watch container with 4 columns */}
+          <div className="col-span-4">{children}</div>
+        </div>
+        <Footer />
+      </body>
     </html>
   );
 }
