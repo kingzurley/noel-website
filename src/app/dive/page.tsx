@@ -58,5 +58,5 @@ const diveWatches = [
 ];
 
 export default function Dive() {
-  return <WatchContainer model={diveWatches} />;
+  return <WatchContainer model={diveWatches} category="/dive" />;
 }

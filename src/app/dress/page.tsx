@@ -55,5 +55,5 @@ const dressWatches = [
 ];
 
 export default function Dress() {
-  return <WatchContainer model={dressWatches} />;
+  return <WatchContainer model={dressWatches} category="/dress" />;
 }

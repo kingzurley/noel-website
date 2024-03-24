@@ -55,5 +55,5 @@ const pilotWatches = [
 ];
 
 export default function Pilot() {
-  return <WatchContainer model={pilotWatches} />;
+  return <WatchContainer model={pilotWatches} category="/pilot" />;
 }
