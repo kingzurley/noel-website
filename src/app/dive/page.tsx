@@ -16,8 +16,43 @@ import { WatchContainer } from "../components/WatchContainer";
 
 const diveWatches = [
   {
-    image: watch10.src,
+    image: watch9.src,
     title: "Omega Seamaster 300m",
+    price: 640,
+  },
+  {
+    image: watch10.src,
+    title: "Doxa Carbon Whitepearl 300m",
+    price: 3790,
+  },
+  {
+    image: watch11.src,
+    title: "Tudor Pelagos FXD 200m",
+    price: 3590,
+  },
+  {
+    image: watch12.src,
+    title: "Omega Planet Ocean 6000m",
+    price: 11600,
+  },
+  {
+    image: watch13.src,
+    title: "Breitling Superocean 300m",
+    price: 4150,
+  },
+  {
+    image: watch14.src,
+    title: "Panerai Submersible 300m",
+    price: 8600,
+  },
+  {
+    image: watch15.src,
+    title: "Omega Seamaster Prorof 1200m",
+    price: 13500,
+  },
+  {
+    image: watch16.src,
+    title: "Doxa Sharkhunter 300m",
     price: 640,
   },
 ];
