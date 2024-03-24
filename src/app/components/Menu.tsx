@@ -24,7 +24,7 @@ export const Menu = (): JSX.Element => {
               activeButtonIndex === key
                 ? "bg-violet-400 text-white"
                 : "bg-white text-black"
-            } rounded-lg hover:bg-violet-400 duration-500`}
+            } rounded-lg hover:bg-violet-400 duration-500 hover:text-white`}
           >
             <MenuItem title={item.title} link={item.link} />
           </button>
