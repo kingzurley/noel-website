@@ -1,6 +1,3 @@
-import { Footer } from "../components/Footer";
-import { Menu } from "../components/Menu";
-import { WatchCard } from "../components/WatchCard";
 import watch18 from "../../../assets/watch18.png";
 import watch19 from "../../../assets/watch19.png";
 import watch20 from "../../../assets/watch20.png";
@@ -55,5 +52,5 @@ const pilotWatches = [
 ];
 
 export default function Pilot() {
-  return <WatchContainer model={pilotWatches} />;
+  return <WatchContainer model={pilotWatches} category="/pilot" />;
 }
