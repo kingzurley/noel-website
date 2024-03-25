@@ -8,7 +8,7 @@ interface IWatchModel {
 
 interface IWatchContainerInterface {
   model: IWatchModel[];
-  category: string;
+  category?: string;
 }
 
 export const WatchContainer = (
