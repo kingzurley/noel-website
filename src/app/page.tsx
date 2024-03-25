@@ -53,5 +53,5 @@ const homeWatches = [
 ];
 
 export default function Home() {
-  return <WatchContainer model={homeWatches} />;
+  return <WatchContainer model={homeWatches} category="/" />;
 }
