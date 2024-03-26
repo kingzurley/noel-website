@@ -1,11 +1,11 @@
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 
-interface IWatchCardProps {
+export interface IWatchCardProps {
   image: string;
   title: string;
   price: number;
-  category: string;
+  category?: string;
 }
 
 export const WatchCard = (props: IWatchCardProps): JSX.Element => {
