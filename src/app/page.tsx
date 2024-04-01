@@ -14,41 +14,49 @@ const homeWatches = [
     image: watch1.src,
     title: "Tissot PRX Powermatic",
     price: 640,
+    text: "omega speedmaster james bond 007 super wow",
   },
   {
     image: watch2.src,
     title: "Tudor Black Bay",
     price: 3360,
+    text: "omega speedmaster james bond 007 super wow",
   },
   {
     image: watch3.src,
     title: "Tudor Royal Day/Date",
     price: 2210,
+    text: "omega speedmaster james bond 007 super wow",
   },
   {
     image: watch4.src,
     title: "Breitling Navitimer",
     price: 4450,
+    text: "omega speedmaster james bond 007 super wow",
   },
   {
     image: watch5.src,
     title: "Longines Spirit",
     price: 2600,
+    text: "omega speedmaster james bond 007 super wow",
   },
   {
     image: watch6.src,
     title: "Longines Conquest",
     price: 1900,
+    text: "omega speedmaster james bond 007 super wow",
   },
   {
     image: watch7.src,
     title: "IWC Ingenieur",
     price: 10500,
+    text: "omega speedmaster james bond 007 super wow",
   },
   {
     image: watch8.src,
     title: "Hamilton Khaki Field",
     price: 715,
+    text: "omega speedmaster james bond 007 super wow",
   },
 ];
 

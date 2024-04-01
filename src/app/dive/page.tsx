@@ -14,41 +14,49 @@ const diveWatches = [
     image: watch9.src,
     title: "Omega Seamaster 300m",
     price: 640,
+    text: "omega speedmaster james bond 007 super wow",
   },
   {
     image: watch10.src,
     title: "Doxa Carbon Whitepearl 300m",
     price: 3790,
+    text: "omega speedmaster james bond 007 super wow",
   },
   {
     image: watch11.src,
     title: "Tudor Pelagos FXD 200m",
     price: 3590,
+    text: "omega speedmaster james bond 007 super wow",
   },
   {
     image: watch12.src,
     title: "Omega Planet Ocean 6000m",
     price: 11600,
+    text: "omega speedmaster james bond 007 super wow",
   },
   {
     image: watch13.src,
     title: "Breitling Superocean 300m",
     price: 4150,
+    text: "omega speedmaster james bond 007 super wow",
   },
   {
     image: watch14.src,
     title: "Panerai Submersible 300m",
     price: 8600,
+    text: "omega speedmaster james bond 007 super wow",
   },
   {
     image: watch15.src,
     title: "Omega Seamaster Prorof 1200m",
     price: 13500,
+    text: "omega speedmaster james bond 007 super wow",
   },
   {
     image: watch16.src,
     title: "Doxa Sharkhunter 300m",
     price: 640,
+    text: "omega speedmaster james bond 007 super wow",
   },
 ];
 
