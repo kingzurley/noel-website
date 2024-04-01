@@ -18,8 +18,11 @@ export const WatchDetails = (props: IWatchDetailsProps): JSX.Element => {
         <Image src={watch11} height={50} width={120} alt={props.title} />
         <Image src={watch12} height={50} width={120} alt={props.title} />
       </div>
-
-      <Image src={watch9} height={200} width={270} alt={props.title} />
+      <div>
+        <Image src={watch9} height={200} width={270} alt={props.title} />
+        <div>{props.title}</div>
+        <div>£{props.price}</div>
+      </div>
 
       <div className="align-middle p-3 ">{props.text}</div>
     </div>
